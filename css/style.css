@@ -217,19 +217,29 @@ footer{
 @media screen and (max-width: 1100px){
     
 
+/* Settings Main  */
+.container-music{
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+.card-sing{
+    width: calc(100% / 4 - ( 1rem * 5 / 4));
 
-
-
+}
 
 }
 
 
 
-/* Setting Media Query max 1100px */
+/* Setting Media Query max 700px */
 
 @media screen and (max-width: 700px){
     
+/* Settings Main  */
 
+.card-sing{
+    width: calc(100% / 2 - (1rem * 3 / 2));
+}
 
 
 
@@ -237,7 +247,7 @@ footer{
 }
 
 
-/* Setting Media Query max 1100px */
+/* Setting Media Query max 600px */
 
 @media screen and (max-width: 600px){
     
@@ -288,10 +298,10 @@ footer{
 }
 
 
-
-
-
 }
+
+
+
 
 
 /* SETTING MEDIA QUERY for Mx HEIGH 350px  */
