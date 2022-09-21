@@ -1,0 +1,90 @@
+/* Default  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* SETTING MAIN BLOCKS  */
+
+body{
+
+ background-color: aqua;   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SETTING MEDIA QUERY   */
+
+
+/* Setting Media Query max 1100px */
+
+@media screen and (max-width: 1100px){
+    
+
+
+
+
+
+}
+
+
+
+/* Setting Media Query max 1100px */
+
+@media screen and (max-width: 700px){
+    
+
+
+
+
+
+}
+
+
+/* Setting Media Query max 1100px */
+
+@media screen and (max-width: 600px){
+    
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
