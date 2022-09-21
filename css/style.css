@@ -186,9 +186,24 @@ main ul li{
 }
 
 .card-sing{
+    text-align: center;
     margin-left: 1rem;
     width: calc(100% / 6 - ( 1rem * 7 / 6 ));
 }
+
+.card-sing h3{
+    margin-bottom: 5px;
+}
+
+.card-sing img{
+    object-fit: cover;
+}
+
+.circle-img{
+    border-radius: 50%;
+}
+
+
 
 /* SETTINGS FOOTER SECTION  */
 
@@ -200,7 +215,7 @@ footer{
     bottom: 0;
     width: 100%;
     height: 10vh;
-    background-color: yellow;
+    background-color: #282828;
     z-index: 100;
 }
 
