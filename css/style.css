@@ -13,12 +13,16 @@ html{
 
 /* SETTING MAIN BLOCKS  */
 
+/* Setting MAIN container  */
+
 .container {
     display: flex;
     height: 100vh;
     width: 100%;
 }
 
+
+/* Setting LEFT SIDEBAR  */
 .sidebar{
   display: flex;
   height: 100%;
@@ -27,18 +31,38 @@ html{
 /* debug */
 background-color: lightgreen;
 
-
 }
 
+/* SETTINGS MAIN CENTRAL BOX  */
 .main-box{
     display: flex;
     background-color: blueviolet;
     width: 100%;
+    flex-wrap: wrap;
 
 }
 
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: chartreuse;
+}
 
+main {
+    width: 100%;
+    height: 85vh;
+    background-color: coral;
+}
 
+/* SETTINGS FOOTER SECTION  */
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 15vh;
+    background-color: yellow;
+}
 
 
 
