@@ -17,16 +17,18 @@ html{
 
 .container {
     display: flex;
-    height: 100vh;
+    height: 85vh;
     width: 100%;
 }
 
 
 /* Setting LEFT SIDEBAR  */
 .sidebar{
+
   display: flex;
   height: 100%;
-  width: 15vw;
+  min-width: 120px;
+  z-index: 99;
 
 /* debug */
 background-color: lightgreen;
@@ -35,6 +37,7 @@ background-color: lightgreen;
 
 /* SETTINGS MAIN CENTRAL BOX  */
 .main-box{
+    position: relative;
     display: flex;
     background-color: blueviolet;
     width: 100%;
@@ -43,14 +46,19 @@ background-color: lightgreen;
 }
 
 header{
+    position: fixed;
     width: 100%;
     height: 15vh;
     background-color: chartreuse;
+    z-index: 99;
 }
 
 main {
+    overflow: scroll;
+    position: absolute; 
+    top: 15vh;
+    height: 70vh;
     width: 100%;
-    height: 85vh;
     background-color: coral;
 }
 
@@ -62,6 +70,7 @@ footer{
     width: 100%;
     height: 15vh;
     background-color: yellow;
+    z-index: 100;
 }
 
 
