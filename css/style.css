@@ -55,7 +55,7 @@ max-width: 100%;
 .card-side{
    width: 100%;
 
-/* deug */
+/* debug */
 background-color: rgb(68, 68, 68);
 min-height: 100px;
 padding-top: 10px;
@@ -63,9 +63,13 @@ padding-left: 10px;
 color: var(--gray);
 }
 
-.card-side img{
-   
+.logo-small{
+    height: 20px;
+    position: absolute;
+    display: none;
 }
+
+
 
 .card-side a{
     display: inline-block;
@@ -73,8 +77,9 @@ color: var(--gray);
 
 .card-side div{
     padding-right: 20px;
-    line-height: 30px;
-    padding-top: 27px
+    padding-top: 27px;
+    /* debug */
+    line-height: 37px;
 }
 
 .card-side ul, .card-side p{
@@ -88,6 +93,28 @@ color: var(--gray);
 
 .card-side ul li {
     line-height: 20px;
+}
+
+.card-side ul img {
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-side ul h5{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-side i{
+    font-size: 30px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.card-side p{
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
@@ -174,6 +201,51 @@ footer{
 
 @media screen and (max-width: 600px){
     
+ /* SETTING Sidebar Section */
+
+.sidebar{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 9vh;
+    min-width: 9vh;
+    text-align: center;
+}
+
+
+.sidebar li, .sidebar p, .sidebar hr{
+    display: none;
+}
+
+.sidebar ul h5{
+    display: none;
+}
+
+.card-side{
+    width: 100%;
+    padding-left: 0;
+    padding-top: 0;
+    text-align: center;
+}
+
+.card-side div{
+    padding-right: 0;
+}
+
+
+.card-side i{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.logo-small{
+    display: inline-block;
+    position: static;
+    vertical-align: middle;
+}
+
+.logo-big{
+    display: none;
+}
 
 
 
@@ -222,4 +294,8 @@ header{
 
 .text-small{
     font-size: small;
+}
+
+.inline{
+    display: inline-block;
 }
