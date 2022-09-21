@@ -10,6 +10,23 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* SETTINGS VARIABLE ROOT */
+
+:root{
+    --white : #fff;
+    --black : black; 
+    --gray : rgb(182, 182, 182);
+}
+
+img {
+
+max-width: 100%;
+
+}
+
+
+
+
 
 /* SETTING MAIN BLOCKS  */
 
@@ -26,14 +43,53 @@ html{
 .sidebar{
 
   display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
   height: 100%;
   min-width: 120px;
   z-index: 99;
-
-/* debug */
-background-color: lightgreen;
-
+  background-color: black;
 }
+
+.card-side{
+   width: 100%;
+
+/* deug */
+background-color: rgb(68, 68, 68);
+min-height: 100px;
+padding-top: 10px;
+padding-left: 10px;
+color: var(--gray);
+}
+
+.card-side img{
+   
+}
+
+.card-side a{
+    display: inline-block;
+}
+
+.card-side div{
+    padding-right: 20px;
+    line-height: 30px;
+    padding-top: 27px
+}
+
+.card-side ul, .card-side p{
+    font-size: small;    
+    
+}
+
+.card-side ul{
+    margin-top: 10px;
+}
+
+.card-side ul li {
+    line-height: 20px;
+}
+
 
 /* SETTINGS MAIN CENTRAL BOX  */
 .main-box{
@@ -60,6 +116,7 @@ main {
     height: 70vh;
     width: 100%;
     background-color: coral;
+    overflow-x: hidden;
 }
 
 /* SETTINGS FOOTER SECTION  */
@@ -125,10 +182,44 @@ footer{
 }
 
 
+/* SETTING MEDIA QUERY for Mx HEIGH 350px  */
+
+@media screen and (max-height: 350px){
+
+
+footer{
+    min-height: 100px;
+}
+
+header{
+    min-height: 100px;
+}
 
 
 
 
 
 
+}
 
+
+
+
+
+/* UTILITY  */
+
+.text-white {
+    color: var(--white);
+}
+
+.text-black {
+    color: var(--black);
+}
+
+.text-gray{
+    color: var(--gray);
+}
+
+.text-small{
+    font-size: small;
+}
