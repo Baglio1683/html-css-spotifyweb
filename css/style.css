@@ -41,26 +41,21 @@ max-width: 100%;
 
 /* Setting LEFT SIDEBAR  */
 .sidebar{
-
+  width: 200px;
   display: flex;
   justify-content: space-between;
   align-content: space-between;
   flex-wrap: wrap;
   height: 100%;
-  min-width: 120px;
+  /* min-width: 120px; */
   z-index: 99;
   background-color: black;
 }
 
 .card-side{
-   width: 100%;
-
-/* debug */
-background-color: rgb(68, 68, 68);
-min-height: 100px;
-padding-top: 10px;
-padding-left: 10px;
-color: var(--gray);
+  padding-top: 10px;
+  padding-left: 10px;
+  color: var(--gray);
 }
 
 .logo-small{
@@ -135,7 +130,7 @@ header{
     align-content: flex-start;
     width: 100%;
     height: 10vh;
-    background-color: chartreuse;
+    background-color: rgb(0, 0, 87);
     z-index: 99;
 }
 
@@ -151,6 +146,7 @@ header a {
    border-radius: 2em;
 }
 
+/* Setting Main  */
 main {
     overflow: scroll;
     position: absolute; 
@@ -159,6 +155,35 @@ main {
     width: 100%;
     background-color: coral;
     overflow-x: hidden;
+}
+
+main ul{
+    list-style: none;
+}
+
+main ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-list{
+    width: 100%;
+    text-align: center;
+}
+
+.container-music{
+    display: flex;
+    align-content: flex-start;
+
+}
+
+.card-sing{
+    margin-left: 1rem;
+    width: calc(100% / 6 - ( 1rem * 7 / 6 ));
+    /* debug */
+    background-color: lightskyblue;
+    border: 1px solid black;
+    height: 200px;
 }
 
 /* SETTINGS FOOTER SECTION  */
