@@ -521,6 +521,13 @@ a:hover .time-play{
     display: none;
 }
 
+/* Setting for Main  */
+.menu-list{
+    line-height: 20px;
+}
+
+
+
 /* Settings for Footer */
 
 .time-big{
