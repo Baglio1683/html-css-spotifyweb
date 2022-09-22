@@ -94,6 +94,7 @@ max-width: 100%;
     height: 24px;
     display: inline-block;
     vertical-align: middle;
+    opacity: 0.7 ;
 }
 
 .card-side ul h5{
@@ -111,6 +112,28 @@ max-width: 100%;
     display: inline-block;
     vertical-align: middle;
 }
+
+.card-side a{
+    text-decoration: none;
+    color: var(--gray);
+
+}
+
+.card-side li:hover a {
+    color: #fff;
+}
+
+.card-side a:hover h5 , .card-side a:hover i, .card-side a:hover li , .card-side a:hover p{
+    color: white;
+}
+
+.card-side a:hover img {
+    opacity: 1;
+}
+
+
+
+
 
 
 /* SETTINGS MAIN CENTRAL BOX  */
