@@ -311,6 +311,18 @@ footer{
 
 }
 
+/* Setting Footer */
+.time-big{
+    width: 38vh;
+}
+
+.time-little{
+    width: 10vh;
+}
+
+
+
+
 }
 
 
@@ -324,6 +336,21 @@ footer{
 .card-sing{
     width: calc(100% / 2 - (1rem * 3 / 2));
 }
+
+/* Setting Footer  */
+.time-big{
+    width: 20vh;
+}
+
+.foot-cent{
+    font-size: xx-small;
+}
+
+.foot-right{
+    font-size: xx-small;
+}
+
+
 
 
 
@@ -381,6 +408,45 @@ footer{
     display: none;
 }
 
+/* Settings for Footer */
+
+.time-big{
+    width: 10vh;
+
+}
+
+.time-little{
+    width: 5vh;
+}
+
+
+.footer-box{
+    font-size: xx-small;
+}
+
+.foot-cent{
+    font-size: 7px;
+}
+
+.foot-right{
+    font-size: 7px;
+}
+
+.time-play{
+    width: 10px;
+}
+
+.left-40{
+    left: 21px;
+}
+
+.fa-circle-play:before{
+    font-size: small;
+}
+
+.title-sing{
+    margin-right: 5px;
+}
 
 }
 
@@ -400,10 +466,6 @@ footer{
 header{
     min-height: 100px;
 }
-
-
-
-
 
 
 }
