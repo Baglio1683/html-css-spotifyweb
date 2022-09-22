@@ -206,6 +206,28 @@ main ul li{
     margin-bottom: 30px;
 }
 
+.menu-list hr{
+    position: absolute;
+    left: 30px;
+    top: 18px;
+    display: inline-block;
+    height: 2px;
+    border: 0;
+    width: 37px;
+    background-color: rgb(136, 255, 136);
+}
+
+
+.menu-list a{
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.menu-list li:hover a{
+    color: #fff;
+}
+
+
 .container-music{
     display: flex;
     align-content: flex-start;
@@ -218,6 +240,29 @@ main ul li{
     margin-left: 1rem;
     width: calc(100% / 6 - ( 1rem * 7 / 6 ));
 }
+
+.card-sing i{
+    position: absolute;
+    font-size: 60px;
+    top: 23%;
+    left: 36%;
+    display: none;
+}
+
+.card-sing a:hover i{
+    display: block;
+    z-index: 99;
+}
+
+.card-sing a:hover img{
+    filter:brightness(0.5);
+}  
+
+
+
+
+
+
 
 .card-sing h3{
     margin-bottom: 5px;
